@@ -1,5 +1,4 @@
 openai==0.28
-streamlit==1.15.0
 shap==0.41.0
 pandas==1.5.2
 numpy==1.23.4
