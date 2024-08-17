@@ -8,6 +8,8 @@ from sklearn.metrics import classification_report
 import matplotlib.pyplot as plt
 from streamlit_shap import st_shap
 
+openai.api_key =  st.secrets["mykey"]
+
 # Load the dataset (assuming it's in the same directory)
 customer = pd.read_csv("Customer Churn.csv")
 
